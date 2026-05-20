@@ -13,7 +13,7 @@ export type TableData = {
   progress: number;
 };
 
-export const dummyRecords = [
+export const dummyRecords: TableData[] = [
   { id: "STU-1001", name: "Aarav Sharma", email: "aarav1001@nit.ac.in", course: "Computer Science & Engineering", status: "Active", created_at: 1774368000000, date: "2026-03-15", file: { name: "aarav_assignment.pdf", size: "2.4 MB", type: "pdf", url: "#" }, priority: "High", progress: 85 },
   { id: "STU-1002", name: "Aditi Rao", email: "aditi1002@nit.ac.in", course: "Electronics & Communication", status: "Active", created_at: 1774454400000, date: "2026-03-16", file: { name: "aditi_profile.jpg", size: "1.2 MB", type: "image", url: "#" }, priority: "Medium", progress: 40 },
   { id: "STU-1003", name: "Amit Patel", email: "amit1003@nit.ac.in", course: "Data Science & AI", status: "Inactive", created_at: 1774540800000, date: "2026-03-17", file: null, priority: "Low", progress: 15 },
